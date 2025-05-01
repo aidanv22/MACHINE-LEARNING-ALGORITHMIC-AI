@@ -1,0 +1,23 @@
+PROBLEM 1:
+
+For this problem, you will implement the k-means++ algorithm
+in Python. You will then use it to cluster Iris dataset from the UCI Machine Learning
+Repository (https://archive.ics.uci.edu/ml/datasets/iris). The features x are given
+as the first four comma-separated values in each row in the data file. The labels y are the
+last entry in each row, but you do NOT need the class label as it is unknown for clustering.
+1. sepal length (cm)
+2. sepal width (cm)
+3. petal length (cm)
+4. petal width (cm)
+5. class: {Iris Setosa, Iris Versicolour, Iris Virginica}
+Alternatively, you can directly load data in scikit-learn using following commands
+
+
+
+PROBLEM 3:
+In this assignment, you will explore PCA as a technique for dis-
+cerning whether low-dimensional structure exists in a set of data and for finding good rep-
+resentations of the data in that subspace. To this end, you will do PCA on Iris dataset from
+Problem 1.
+
+
