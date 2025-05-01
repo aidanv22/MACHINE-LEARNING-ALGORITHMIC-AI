@@ -1,0 +1,35 @@
+PROBLEM 4:
+In this problem will use the Pima Indians Diabetes dataset from the UCI repository
+to experiment with the k-NN algorithm and find the optimal value for the number of neighbors k.
+
+Use 5-fold cross-validation on training data to decide the best number of neighbours k. To this end, you
+can use the built in functionality in scikit-learn such as cross_val_score. For k = 1, 2, 3, . . . , 15
+compute the 5-fold cross validation error and plot the results (with values of k on the x-axis and
+accuracy on the y-axis). Include the plot in your report and justify your decision for picking a particular
+number of neighbors k.
+
+
+
+
+PROBLEM 5:
+In this problem, we consider a simple linear regression model with a modified loss
+function and try to solve it with Gradient Descant (GD) and Stochastic Gradient Descant (SGD).
+In general setting, the data has the form {(x1, y1), (x2, y2), . . . , (xn, yn)} where xi is the d-dimensional
+feature vector and yi is a real-valued target. For this regression problem, we will be using linear prediction
+w>xi with the objective function:
+f (w) = 1
+n
+n∑
+i=1
+gδ (w, xi, yi) + λ
+d∑
+j=1
+w2
+j
+gδ (w, xi, yi) =
+
+
+
+(y − w · x − δ)2 if y ≥ w · x + δ
+0 if |y − w · x| < δ
+(y − w · x + δ)2 if y ≤ w · x − δ
