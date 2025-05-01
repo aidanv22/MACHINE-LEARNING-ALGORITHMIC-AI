@@ -1,0 +1,8 @@
+The goal of this problem is to do basic data analysis on a simple data set using
+pandas package in Python (no machine learning for now). As it has been emphasized in the lectures, we
+need to have a good understanding of data before training a machine learning model.
+In this assignment, you are asked to analyze the UCI Adult data set. The Adult data set is a stan-
+dard machine learning data set that contains demographic information about the US residents. This data
+was extracted from the census bureau database found at: http://www.census.gov/ftp/pub/DES/www/wel-
+come.html. The data set contains 32561 instances and 15 features (please check the notebook for possible
+values of each feature) with different types (categorical and continuous).
